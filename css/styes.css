@@ -6,8 +6,16 @@ body, html{
 .style{
     height: 80px;
     width: auto;
-    background-color: #774DCE;
+    background-color: #774DCE; 
 }
+
+.cart{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
 .hero-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px; 
@@ -48,6 +56,97 @@ body, html{
     margin-right: 40px;
     background-color: #B6188A;
 }
+
+
+.games{
+    height: 250px;
+    margin-top: 150px;
+    margin-left: 550px;
+    
+}
+.pre-order{
+    height: 250px;
+    margin-top: 150px;
+    margin-left: 200px;
+   
+}
+.sell-games{
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 550px;
+    
+}
+.pre-owned-games{
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 200px;
+  
+    
+}
+
+
+
+.gamehub{
+    float: left;
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.columns{
+   display: grid;
+   grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  grid-gap: 10px;
+  min-height: 400px;
+   
+}
+
+@media  screen and (max-width:768px) {
+    
+    .hero-text{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 30px; 
+        color: #fff;
+        text-align: center;
+    }
+
+    .columns{
+       
+        flex:100%;
+        max-width: 100%;
+
+    }
+       
+
+    .games{
+        height: 250px;
+       margin-left: 250px;
+
+        
+    }
+    .pre-order{
+        height: 250px;
+        margin-left: 250px;
+      
+       
+    }
+    .sell-games{
+        height: 250px;
+        margin-left: 250px;
+       
+    }
+    .pre-owned-games{
+        height: 250px;
+        margin-left: 250px;
+        
+      
+        
+    }
+    
+}
+
+
 
 
 
