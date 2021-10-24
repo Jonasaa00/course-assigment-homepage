@@ -1,2 +1,144 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/styes.css">
+</head>
+<body>
+
+<div class= "style"> 
+    <div class="hero-text">Best way to buy games!</div>
+</div>
+
+<div class="sidebar">
+  <a class="active" href="search">search</a>
+  <a href="all-games">All games</a>
+  <a href="action">Action</a>
+  <a href="simulation">Simulation</a>
+  <a href="adventure">Adventure</a>
+  <a href="mmorpg">MMORPG</a>
+  <a href="horror">Horror</a>
+  <a href="kids">Kids</a>
+  <a href="sport">Sport</a>
+</div>
+<div class="content">
+  </div>
+
+  <button class="button1" type="button">Log in</button>
+  <button class="button2" type="button">Sign up</button>
+
+  <div class="row">
+
+    <img class="games" src="./img/apex.png" height="100" width="100" alt="games">
+    <img class="sell-games" src="./img/need-for-speed.png" height="100" width="100" alt="sell-games">
+    <img class="pre-owned-games" src="./img/sims.png" height="100" width="100" alt="pre-owned-games">
+    <img class="pre-order" src="./img/battlefield.png" height="100" width="100" alt="pre-order">
+    
+    <div class="column"></div>
+  </div>
+
+
+
+
+
+
+  .column {
+    width: 33.33%;
+    padding: 5px;
+    margin-top: 50px ;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/styes.css">
+</head>
+<body>
+
+<div class= "style"> 
+    <div class="hero-text">Best way to buy games!</div>
+</div>
+
+<div class="sidebar">
+  <a class="active" href="search">search</a>
+  <a href="all-games">All games</a>
+  <a href="action">Action</a>
+  <a href="simulation">Simulation</a>
+  <a href="adventure">Adventure</a>
+  <a href="mmorpg">MMORPG</a>
+  <a href="horror">Horror</a>
+  <a href="kids">Kids</a>
+  <a href="sport">Sport</a>
+</div>
+<div class="content">
+  </div>
+
+  <button class="button1" type="button">Log in</button>
+  <button class="button2" type="button">Sign up</button>
+
+  <div class="row">
+    <div class="column">
+      <img src="img/apex.png" alt="games">
+    </div>
+    <div class="column">
+      <img src="img/battlefield.png" alt="pre-order">
+    </div>
+    <div class="column">
+      <img src="img/need-for-speed.png" alt="sell-games">
+    </div>
+    <div class="column">
+      <img src="img/sims.png" alt="pre-owned-games">
+    </div>
+
+  </div>
+
+.games{
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.pre-order{
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 200px;
+   
+}
+.sell-games{
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+.pre-owned-games{
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 200px;
+  
+    
+}
+
+
+
+.gamehub{
+    float: left;
+    height: 65px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+@media  screen and (max-width:768px) {
