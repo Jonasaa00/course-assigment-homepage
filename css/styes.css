@@ -9,10 +9,15 @@ body, html{
     background-color: #774DCE; 
 }
 
+.fa-shopping-cart{
+    font-size: 30px;
+    color: #fff;
+}
+
 .cart{
     float: right;
-    margin-top: 30px;
-    margin-right: 20px;
+    margin-top: 22px;
+    margin-right: 25px;
 }
 
 
@@ -47,6 +52,8 @@ body, html{
       margin-right: 40px;
       background-color: #fff;
       outline: #B6188A;
+      width: 100px;
+      border-radius: 5px;
   }
 
   .button2 {
@@ -55,6 +62,8 @@ body, html{
     margin-top: 40px;
     margin-right: 40px;
     background-color: #B6188A;
+    width: 100px;
+      border-radius: 5px;
 }
 
 
@@ -113,8 +122,9 @@ body, html{
 
     .columns{
        
-        flex:100%;
+        display: block;
         max-width: 100%;
+     
 
     }
        
@@ -122,23 +132,27 @@ body, html{
     .games{
         height: 250px;
        margin-left: 250px;
+       margin-top: 50px;
 
         
     }
     .pre-order{
         height: 250px;
         margin-left: 250px;
+        margin-top: 50px;
       
        
     }
     .sell-games{
         height: 250px;
         margin-left: 250px;
+        margin-top: 50px;
        
     }
     .pre-owned-games{
         height: 250px;
         margin-left: 250px;
+        margin-top: 50px;
         
       
         
